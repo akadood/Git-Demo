@@ -1,0 +1,87 @@
+$blue: rgb(255, 255, 255);
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+/* Navigation Styling */
+.nav-bar{
+    width: 100%;
+    display: flex;
+    nav {
+        padding: 10px;
+        width: 100%;
+        background-color: black;
+    }
+    ul{
+        display: flex;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        justify-content: space-evenly;
+        
+    }
+    a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        &:hover {
+            color: black;
+        }
+    }
+}
+/* Header and Image Styling */
+.header {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    .intro img {
+        display: block;
+        width: 100%;
+    }
+    .logo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+}
+/* Paragraph Styling */
+.purpose{
+    width: 100%;
+    p{
+        margin: 0;
+        padding: 20px;
+        background-color: rgb(119, 171, 219);
+    }
+}
+/* Footer Styling */
+footer{
+    width: 100%;
+    .copy-right{
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+}
+/* Title and comintinued Paragraph Styling */
+h1{
+    margin: 0;
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(119, 171, 219);
+}
+h2{
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+}
